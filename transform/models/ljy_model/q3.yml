@@ -1,0 +1,13 @@
+models:
+  - name: q3
+    description: >
+      Answer to Q3 of take home test
+    meta:
+      owner: jiayili.2022@mitb.smu.edu.sg
+    columns:
+      - country_name
+        description: Name of country where vendor is located.
+      - vendor_name
+        description: Name of vendor which has highest total GMV by each country.    
+      - total_gmv
+        description: GMV calculated for each vendor.

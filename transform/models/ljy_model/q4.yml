@@ -1,0 +1,15 @@
+models:
+  - name: q4
+    description: >
+      Answer to Q4 of take home test
+    meta:
+      owner: jiayili.2022@mitb.smu.edu.sg
+    columns:
+      - year
+        description: Year in which trsanction take placed.
+      - country_name
+        description: Name of country where vendor is located.
+      - vendor_name
+        description: Name of top 2 vendor which have highest total GMV by each country each year.    
+      - total_gmv
+        description: GMV calculated for each vendor each year.

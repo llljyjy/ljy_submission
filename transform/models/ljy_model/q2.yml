@@ -1,0 +1,13 @@
+models:
+  - name: q2
+    description: >
+      Answer to Q2 of take home test
+    meta:
+      owner: jiayili.2022@mitb.smu.edu.sg
+    columns:
+      - vendor_name
+        description: Name of vendor.
+      - customer_count
+        description: Number of customers serviced by each vendor.
+      - total_gmv
+        description: GMV calculated for each vendor.
